@@ -1,0 +1,7 @@
+In order to support the pageobject pattern , WebDrivers support library contains a factory class
+
+We have separate method to initialize webelement of page object is initelement
+
+Important featuree of page factory is cache feature that will store all frequently used webelement in cache
+
+@Cachelokup is useful for maintaining the cache memory of webelements. No need to identify everytime when webelement is used . Due to this preformance increases
